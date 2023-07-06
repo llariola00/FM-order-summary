@@ -38,7 +38,7 @@
       <!-- Main component container -->
       <div class="mn-card-body d-flex flex-column">
         <!-- image section container -->
-        <section class="mn-img-section">
+        <aside class="mn-img-section">
           <!-- Image root container -->
           <div class="img-container">
             <img
@@ -48,7 +48,7 @@
               id="mn-img"
             />
           </div>
-        </section>
+        </aside>
 
         <!-- text section container -->
         <section class="mn-text-body text-center p-5">
@@ -58,18 +58,20 @@
             any device anywhere you like!
           </p>
 
-          <!-- Big SPAN/BUTTON near the center -->
+          <!-- Annual Plan wrapper near the center -->
           <div
             class="d-flex justify-content-between align-items-center p-3 rounded-3"
             id="wrapper-plan"
           >
-            <span class="d-flex align-items-center">
+            <div class="d-flex align-items-center">
               <img src="./images/icon-music.svg" alt="icon-music" />
               <div class="mb-0 ms-3 d-flex flex-column">
-                <p class="fw-bold m-0">Annual Plan</p>
-                <p class="txt-cost m-0">$59.99/year</p>
+                <p class="fw-bold m-0">
+                  Annual Plan <br />
+                  <abbr class="txt-cost">$59.99/year</abbr>
+                </p>
               </div>
-            </span>
+            </div>
 
             <a class="m-0 font-small fw-bold" href="#" id="btn-change"
               >Change</a
