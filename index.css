@@ -1,0 +1,103 @@
+:root {
+  --Pale-blue: hsl(225, 100%, 94%);
+  --Bright-blue: hsl(245, 75%, 52%);
+  --Very-pale-blue: hsl(225, 100%, 98%);
+  --Desaturated-blue: hsl(224, 23%, 55%);
+  --Dark-blue: hsl(223, 47%, 23%);
+}
+
+body {
+  background-image: url("./images/pattern-background-mobile.svg");
+  background-color: var(--Pale-blue);
+  background-repeat: no-repeat;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  visibility: hidden;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media screen and (min-width: 540px) {
+  body {
+    font-family: "Red Hat Display", sans-serif;
+    background-image: url("./images/pattern-background-desktop.svg");
+  }
+
+  .attribution {
+    visibility: visible;
+  }
+}
+
+/* Font sizes for buttons */
+.font-small {
+  font-size: 0.875rem;
+  font-weight: 900;
+}
+
+.mn-container {
+  min-height: 100vh;
+}
+
+.mn-card-body {
+  width: 450px;
+}
+
+/* Image Section */
+#mn-img {
+  height: 220px;
+  border-radius: 1.5rem 1.5rem 0 0;
+}
+
+/* Text Section */
+.mn-text-body {
+  background-color: white;
+  color: var(--Dark-blue);
+  border-radius: 0 0 1.5rem 1.5rem;
+}
+
+#text-title {
+  font-size: 1.5rem;
+  font-weight: 900;
+}
+
+#wrapper-plan {
+  background-color: var(--Very-pale-blue);
+}
+
+.txt-cost {
+  color: var(--Desaturated-blue);
+}
+
+#btn-change {
+  color: var(--Bright-blue);
+}
+
+#btn-change:hover {
+  color: hsla(245, 75%, 52%, 50%);
+}
+
+.wrapper-payment {
+  margin: 2rem 0 2rem 0;
+}
+
+.btn-payment {
+  padding: 0.7rem 0 0.7rem 0;
+  background-color: var(--Bright-blue);
+}
+
+.btn-payment:hover {
+  background-color: hsla(245, 75%, 52%, 50%);
+}
+
+.btn-cancel {
+  color: var(--Desaturated-blue);
+  cursor: pointer;
+}
+
+.btn-cancel:hover {
+  color: var(--Dark-blue);
+}
