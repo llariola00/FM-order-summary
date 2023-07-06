@@ -20,8 +20,8 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
 
 ### Links
 
-- Solution URL: [Frontend Master]()
-- Live Site URL: [Github Pages]()
+- Solution URL: [Frontend Master](https://www.frontendmentor.io/solutions/order-order-summary-card-using-bootstrap-aRv3oiMLI-)
+- Live Site URL: [Github Pages](https://llariola00.github.io/FM-order-summary/)
 
 ### Built with
 
